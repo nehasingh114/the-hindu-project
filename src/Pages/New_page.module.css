@@ -1,0 +1,138 @@
+#SideBarMainDiv {
+  z-index: 10;
+}
+.modelnew_page {
+  color: white;
+}
+.container button {
+  background-color: #001e29;
+  color: white;
+  margin-left: 250px;
+  font-size: 30px;
+  border: none;
+  color: palevioletred;
+}
+.container {
+  /* border: 1px solid red; */
+  width: 290px;
+  height: 1300px;
+  margin-left: -200px;
+  margin-top: -20px;
+  background-color: #001e29;
+  overflow: scroll;
+}
+.imgdiv {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-top: -20px;
+}
+.line {
+  border-bottom: 3px solid black;
+  width: 200px;
+  margin-top: 10px;
+}
+.model1 {
+  padding: 5px;
+}
+.ipl,
+.ele,
+.ent,
+.cities,
+.life,
+.education,
+.astrology,
+.videos,
+.photos,
+.sports,
+.Ht,
+.games {
+  display: flex;
+  justify-content: space-between;
+  width: 220px;
+  box-shadow: teal;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.ipl,
+.ele,
+.ent,
+.cities,
+.life,
+.education,
+.astrology,
+.videos,
+.photos,
+.sports,
+.Ht,
+.games label {
+  margin-top: 10px;
+}
+
+.expolerdiv {
+  background-color: #002634;
+  height: 350px;
+}
+.ptag {
+  background-color: #001e29;
+  margin-top: 15px;
+}
+.morelogo {
+  display: flex;
+}
+.sign {
+  display: flex;
+  justify-content: space-between;
+  /* width: 100%; */
+  height: 50px;
+  margin-top: 15px;
+}
+.facebook {
+  width: 50px;
+  height: 50px;
+  margin-top: -5px;
+  /* margin-left: 20px; */
+}
+.tw {
+  width: 50px;
+  height: 50px;
+}
+.ink {
+  width: 50px;
+  height: 50px;
+}
+.over {
+  width: 200px;
+  width: 150%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.over h4 {
+  width: 150%;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.over h4:hover {
+  color: black;
+  background-color: aquamarine;
+  width: fit-content;
+}
+.container h3 {
+  margin-top: 1px;
+}
+.weather {
+  width: 150px;
+  height: 50px;
+  margin-left: 150%;
+  margin-top: -60px;
+}
+.ahref {
+  margin-top: 10px;
+}
+.ahref a {
+  color: white;
+  border-bottom: none;
+}
+.expolerdiv a {
+  color: white;
+}

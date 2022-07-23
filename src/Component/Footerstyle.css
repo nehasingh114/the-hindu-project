@@ -1,0 +1,132 @@
+.footer {
+  width: 100%;
+  height: 930px;
+  background-color: #011e29;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+
+.wrapdiv {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapdiv > div {
+  width: 130px;
+}
+
+.h4 {
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+.h4:hover {
+  text-decoration: underline;
+}
+
+.hr {
+  border: none;
+  height: 1px;
+  background-color: gray;
+  width: 80%;
+}
+.logo {
+  width: 140%;
+}
+.left {
+  width: 100px;
+}
+.topdiv {
+  width: 80%;
+  margin: auto;
+  height: 200px;
+}
+.topdiv > div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+}
+#select {
+  width: 180px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(34, 32, 32);
+}
+
+#input {
+  width: 300px;
+  height: 34px;
+  font-size: 17px;
+}
+#btn {
+  width: 120px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+.seconddiv > .topleft > input,
+button {
+  margin: 10px;
+}
+.h3 {
+  color: white;
+  margin-top: 2px;
+  font-size: 15px;
+}
+.seconddiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topright > img {
+  margin: 15px;
+  cursor: pointer;
+}
+.p {
+  color: gray;
+  font-size: 14px;
+}
+.p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.wrapdiv2 {
+  width: 100%;
+  height: 300px;
+  background-color: #00131a;
+}
+.wrapdiv2 > div:nth-child(1) {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+}
+.wrapdiv2 > div:nth-child(2) {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+}
+.footericone > img {
+  margin: 10px;
+}
+.footericone {
+  width: 80%;
+  margin: auto;
+}
+.footericone > img {
+  cursor: pointer;
+}
+.footer1 {
+  width: 100%;
+  background-color: #011e29;
+}
+.terms {
+  margin: auto;
+  color: white;
+  text-align: center;
+}

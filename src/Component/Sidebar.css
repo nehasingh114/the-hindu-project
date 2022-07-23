@@ -1,0 +1,96 @@
+#sidebar {
+  height: 100vh;
+  width: 390px;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 10;
+  right: 0;
+  top: 0;
+  transform: translateX(0px);
+  transition-duration: 0.3s;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#sidebar2 {
+  height: 99.7vh;
+  width: 390px;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 10;
+  right: 0;
+  top: 0;
+  transform: translateX(390px);
+  transition-duration: 0.3s;
+}
+#sidebar-1 {
+  box-sizing: border-box;
+  padding-top: 10px;
+  background-color: #011e29;
+  height: 40vh;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font: Lato, sans-serif;
+}
+.h23 {
+  margin: 10px 0px;
+}
+#btn {
+  font: 16px Lato, sans-serif;
+  width: 165px;
+  height: 39px;
+  color: white;
+  background-color: #011e29;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+#sidebar-img {
+  background-color: white;
+  color: #011e29;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: xx-large;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+#sidebar-2 {
+  background-color: #f5f5f5;
+  height: 65vh;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px 0px;
+  text-align: center;
+}
+#sidebar-2 > .input {
+  height: 40px;
+  width: 310px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  border: 1px solid lightgrey;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  padding: 0px 10px;
+  align-items: center;
+  background-color: white;
+}
+.nav-menu-active {
+  position: fixed;
+  transform: translateX(0px);
+  top: 0;
+}
+.nav-menu {
+  top: 0;
+  transform: translateX(100vw);
+  position: fixed;
+}
+#sidebar-nav {
+  display: flex;
+  justify-content: right;
+  background-color: rgba(255, 255, 255, 0.671);
+  width: 99.8%;
+}

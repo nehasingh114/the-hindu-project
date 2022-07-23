@@ -1,0 +1,66 @@
+.logo1 {
+  width: 100%;
+  height: 60px;
+  /* border: 1px solid black; */
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.sec_div {
+  width: 450px;
+  height: 320px;
+  border: solid 1px #e0e0e0;
+  margin: auto;
+  padding: 40px;
+  background-color: white;
+}
+.label {
+  margin: 0px 0px 8px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+}
+.label span {
+  color: red;
+}
+body {
+  background: #eee;
+}
+.input {
+  display: flex;
+  margin-bottom: 10px;
+}
+.input:first-child {
+  margin-left: 0%;
+}
+.input > input {
+  width: 10%;
+  font-size: 16px;
+  padding: 14px;
+  color: #424242;
+  border: solid 1px #e0e0e0;
+  font-weight: 700;
+  border-radius: 4px;
+  justify-content: space-between;
+  margin-left: 1.2%;
+}
+.resend {
+  color: #1cb1cd;
+  text-decoration: underline;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+}
+.input > input {
+  text-align: center;
+}
+#OtpButtonCont {
+  margin: 20px 20px 0px 0px;
+  padding: 16px 50px;
+  border-radius: 24px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  background: #dbdbdb;
+  border: 1px solid #dbdbdb;
+  text-align: center;
+}

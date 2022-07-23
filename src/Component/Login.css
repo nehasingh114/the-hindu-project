@@ -1,0 +1,100 @@
+.logo1 {
+  width: 100%;
+  height: 60px;
+  /* border: 1px solid black; */
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.div1 {
+  background-color: #eeeeee;
+  /* margin-top: -21px; */
+  /* height: 100%; */
+  padding: 0px 0px 50px 0px;
+}
+.div2 {
+  width: 532px;
+  border: 1px solid rgb(222, 217, 217);
+  margin: auto;
+  background-color: white;
+  padding: 40px;
+}
+.div3 > div {
+  /* border: 1px solid black; */
+  /* width: 440px; */
+  height: 40px;
+  /* margin-top: 50px; */
+  margin: 0px 0px 16px;
+  padding: 10px 75px 3px;
+  font: 17px bold;
+  font-family: sans-serif;
+  color: white;
+  border-radius: 3px;
+}
+.div4 {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.div4 > div {
+  width: 100%;
+  height: 0.1px;
+  margin: auto;
+  border: 0.8px solid #dbdbdb;
+}
+.div4 span {
+  padding: 0px 10px;
+  font: 16px sans-serif;
+  color: #757575;
+}
+.div2 > div {
+  /* width: 450px; */
+  /* border: 1px solid purple; */
+  margin: auto;
+
+  /* text-align: center; */
+}
+.number {
+  font: 16px sans-serif;
+  color: black;
+  margin-bottom: 10px;
+}
+.number span {
+  color: red;
+}
+.input_div {
+  width: 100%;
+  height: 50px;
+  border-radius: 3px;
+  border-color: #999696;
+  outline: none;
+  border: solid black;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outter-spin-button {
+  -webkit-appearance: none;
+}
+.button {
+  margin: 20px 20px 0px 0px;
+  padding: 16px 50px;
+  border-radius: 25px;
+  margin-top: 60px;
+  background-color: #dbdbdb;
+  border: none;
+  font: 16px sans-serif;
+  color: white;
+}
+.goAhead {
+  background-color: rgb(74, 249, 74);
+}
+.wait:hover {
+  cursor: not-allowed;
+}
+.allLogo {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 50px;
+}
